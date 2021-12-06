@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+h1{
+position: absolute;
+width: 450px;
+height: 75px;
+right: 198px;
+top: 20px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 55px;
+}
+h2{
+position: absolute;
+width: 396px;
+height: 53px;
+left: 175px;
+top: 440px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 52px;
+}
+.upper-p{
+position: absolute;
+width: 308px;
+height: 24px;
+left: 179px;
+top: 580px;
+    
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.under-p{
+position: absolute;
+width: 308px;
+height: 24px;
+left: 179px;
+top: 610px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+}
+.logo{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 42px;
+top: 20px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 30px;
+text-decoration: none;
+}
+
+.logo a:hover, a:active, a:link , a:visited{
+  color:#000000;
+  text-decoration: none;
+}
+.sign-in{
+position: absolute;
+width: 120px;
+height: 45px;
+left: 973px;
+top: 164px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 45px;
+}
+.auth_img{
+position: absolute;
+left: 4%;
+top: 9%;
+
+}
+.uname{
+position: absolute;
+width: 369px;
+height: 62px;
+left: 892px;
+top: 247px;
+    
+background: #fffee8;
+border-radius: 8px;
+border-color: #F0EFFF
+}
+.uname::placeholder{
+color: #000000;
+font-family: sans-serif;
+font-size: 15px;
+}
+.psw{
+position: absolute;
+width: 369px;
+height: 62px;
+left: 892px;
+top: 347px;
+background: #fffee8;
+border-radius: 8px;
+border-color: #F0EFFF;
+}
+.password-control{
+position: absolute;
+top: 371.16px;
+left: 1214px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}
+.psw::placeholder{
+color: #000000;
+font-family: sans-serif;
+font-size: 15px;
+}
+.login{
+position: absolute;
+left: 892px;
+top: 492px;
+width: 374px;
+height: 62px;
+
+background: #2d40e7;
+box-shadow: 0px 4px 61px rgba(73, 64, 248, 0.4);
+border-radius: 9px;
+text-align: center;
+color: white;
+font-weight: bolder;
+font-size: 17px;
+font-family: sans-serif;
+}
+.continue{
+position: absolute;
+width: 130px;
+height: 24px;
+left: 1012px;
+top: 585px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+text-align: center;
+}
+.fa-facebook{
+position: absolute;
+left: 1006.96px;
+top: 670.02px;
+}
+.fa-google{
+    position: absolute;
+    left: 1067.85px;
+    top: 670.02px;
+}
+.fa-instagram{
+    position: absolute;
+    left: 1125.14px;
+    top: 670.02px;
+}
+.forgot{
+position: absolute;
+width: 119px;
+height: 20px;
+left: 1142px;
+top: 426px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+color: #B0B0B0;
+}
+.error1 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 268px;
+  }
+  .error2 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 361px;
+  }
+  .error3 {
+    color: red;
+    position: absolute;
+    left: 1280px;
+    top: 268px;
+  }
+  .back{
+    position: absolute;
+    top: 33px;
+    right: 42px;
+    font-family: sans-serif;
+}
+

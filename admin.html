@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles-list.css">
+</head>
+
+<body>
+    <p class="logo"><a href="index.html">Skillbox</a></p> 
+    <h1 class="first-heading">Заполнение данных о потенциальных студентах курсов Skillbox</h1>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>ID</label>
+                        <input type="text" name="ID" id="id">
+                    </div>
+                    <div>
+                        <label>Имя студента</label>
+                        <input type="text" name="Student Name" id="student-name">
+                    </div>
+                    <div>
+                        <label>Выбранный курс</label>
+                        <input type="text" name="Category" id="category">
+                    </div>
+                    <div>
+                        <label>Стоимость курса</label>
+                        <input type="text" name="Price" id="price">
+                    </div>
+                    <div  class="form-action-buttons text-center">
+                        <input type="submit"  value="Отправить">
+                    </div>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <img class="image" src="img/pixeltrue-teaching-1.svg" alt="img">
+            
+    <table class="list" id="studentList">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Имя студента</th>
+                <th>Выбранный курс</th>
+                <th>Стоимость курса</th>
+                <th></th>
+            </tr>
+        </thead>
+            <tbody>
+
+            </tbody>
+    </table>
+            
+    <script src="script-list.js"></script>
+</body>
+</html>

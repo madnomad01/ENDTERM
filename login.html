@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="sign in.css">
+    </head>
+    <body>
+        <div class="left-side">
+        <p class="logo"><a href="index.html">Skillbox</a></p>    
+        <h1>Войдите в свой профиль</h1>
+        <h2>Учитесь новому на Skillbox</h2>
+        <p class="upper-p">Если вы ранее не были авторизованы</p>
+        <p class="under-p">Вы можете<a href="sign up.html"> зарегистрироваться здесь</a></p>
+        <img class="auth_img" src="img/authentication-illustration.svg" alt="">
+        </div>
+        <div class="right-side">
+            <p class="sign-in">Авторизоваться</p>
+             <div class="container">
+
+                <form id="log-form" action="#">
+                <input class="uname" type="text" placeholder="Введите эл.почту или пользовательское имя" name="uname">
+                
+                <input class="psw" type="password" id="password-input" type="password" placeholder="Пароль" name="password">
+                <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+
+                <button class="login" type="submit">Войти</button>
+                </form>
+
+             </div>
+             <p class="forgot">забыли пароль?</p>
+             <p class="continue">или продолжите через</p>
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-google"></a>
+             <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <script src="sign in.js"></script>
+    </body>
+</html>

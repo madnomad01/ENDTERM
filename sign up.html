@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="sign up.css">
+    </head>
+    <body>
+        <div class="left-side">
+         <p class="logo"><a href="index.html">Skillbox</a></p>
+        <h1>Создайте свой профиль</h1>
+        <h2>Добро пожаловать в Skillbox!</h2>
+        <p class="upper-p">Если у вас уже есть профиль</p>
+        <p class="under-p">Вы можете<a href="login.html"> авторизоваться здесь</a></p>
+        <img class="reg_img" src="img/registration-illustration.svg" alt="">
+        </div>
+        <div class="right-side">
+            <!--<p class="sign-in">Зарегистрироваться</p>-->
+             <div class="container">
+
+                <form id="rgs-form" action="index.html" method="post">
+                <div>
+                  <input type="text" class="email" placeholder="Введите эл.почту" name="email">
+                </div>
+                <div>
+                  <input type="text" class="name" placeholder="Введите пользовательское имя" name="name" >
+                </div>
+                <div>  
+                  <input type="text" class="number" placeholder="Контактный номер" name="number" >
+                </div>
+                <div>
+                   <input type="password" class="psw" id="password-input" type="password" placeholder="Пароль" name="password" >
+                   <a href="#" class="password-control" onclick="return show_hide_password(this);"></a>
+                </div>
+                <div>
+                   <input type="password" class="confirm-password" id="password-input2" placeholder="Повторите пароль" name="confirm-password">
+                   <a href="#" class="password-control2" onclick="return show_hide_password2(this);"></a>
+                </div>
+                <div>
+                   <button class="register" type="submit">Зарегистрироваться</button>
+                </div>   
+                </form>
+             </div>
+             <p class="continue">или продолжите через</p>
+             <a href="#" class="fa fa-facebook"></a>
+             <a href="#" class="fa fa-google"></a>
+             <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <script src="sign up.js"></script>
+    </body>
+</html>

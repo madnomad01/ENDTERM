@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+
+body > table{
+    width: 50%;
+    margin-left: 3%;
+   
+}
+
+table{
+    border-collapse: collapse;
+    padding-top: 100px;
+}
+table.list{
+    width:50%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.first-heading{
+    padding-left: 46px;
+    margin-top: 100px;
+    font-family: Roboto Mono;
+    width: 700px;
+}
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 42px;
+    top: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    }
+    
+    .logo a:hover, a:active, a:link , a:visited{
+      color:#000000;
+      text-decoration: none;
+    }
+.image{
+    position: absolute;
+    height: 700px;
+    width: 700px;
+    right: 50px;
+    top:70px;
+}
+.back{
+    position: absolute;
+    top: 33px;
+    right: 42px;
+    font-family: sans-serif;
+}
+

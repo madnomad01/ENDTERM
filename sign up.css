@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600&display=swap');
+h1{
+position: absolute;
+width: 700px;
+height: 75px;
+right: 1px;
+top: 1px;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 55px;
+}
+h2{
+  position: absolute;
+  width: 396px;
+  height: 53px;
+  left: 175px;
+  top: 440px;
+  
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 52px;
+}
+.upper-p{
+  position: absolute;
+  width: 308px;
+  height: 24px;
+  left: 179px;
+  top: 580px;
+      
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+.under-p{
+  position: absolute;
+  width: 308px;
+  height: 24px;
+  left: 179px;
+  top: 610px;
+  
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.logo{
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  left: 42px;
+  top: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  text-decoration: none;
+  }
+  
+  .logo a:hover, a:active, a:link , a:visited{
+    color:#000000;
+    text-decoration: none;
+  }
+.sign-in{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    left: 892px;
+    top: 34px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    }
+    .reg_img{
+      position: absolute;
+      left: 4%;
+      top: 9%;
+    }
+    .email{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 110px;   
+    background: #fffee8;
+    border-radius: 8px;
+    border-color: #F0EFFF
+    }
+    .email::placeholder{
+      color: #000000;
+    font-family: sans-serif;
+    font-size: 15px;
+    }
+    .name{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 190px;        
+    background: #fffee8;
+    border-radius: 8px;
+    border-color: #F0EFFF;   
+    }
+    .name::placeholder{
+      color: #000000;
+    font-family: sans-serif;
+    font-size: 15px;
+    }
+    .number{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 270px;        
+    background: #fffee8;
+    border-radius: 8px;
+    border-color: #F0EFFF   
+    }
+    .number::placeholder{
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 15px;
+    }
+    .psw{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 350px;
+    background: #fffee8;
+    border-radius: 8px;
+    border-color: #F0EFFF;
+        }
+
+    .psw::placeholder{
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 15px;
+            }
+    .confirm-password{
+    position: absolute;
+    width: 369px;
+    height: 52px;
+    left: 892px;
+    top: 430px;
+    background: #fffee8;
+    border-radius: 8px;
+    border-color: #F0EFFF;   
+    }
+    .confirm-password::placeholder{
+      color: #000000;
+      font-family: sans-serif;
+      font-size: 15px;
+    } 
+
+    .register{
+position: absolute;
+left: 892px;
+top: 510px;
+width: 374px;
+height: 52px;
+background: #2d40e7;
+box-shadow: 0px 4px 61px rgba(73, 64, 248, 0.4);
+border-radius: 9px;
+text-align: center;
+color: white;
+font-weight: bolder;
+font-size: 17px;
+font-family: sans-serif;
+    } 
+
+.password-control{
+position: absolute;
+top: 371.16px;
+left: 1214px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}
+.password-control2{
+position: absolute;
+top: 451.16px;
+left: 1214px;
+display: inline-block;
+width: 20px;
+height: 20px;
+background: url(img/Vector.png) 0 0 no-repeat;
+}   
+.continue{
+    position: absolute;
+width: 130px;
+height: 24px;
+left: 1012px;
+top: 585px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #B5B5B5;
+text-align: center;
+}       
+    .fa-facebook{
+    position: absolute;
+    left: 1006.96px;
+    top: 670.02px;
+    }
+    .fa-google{
+        position: absolute;
+        left: 1067.85px;
+        top: 670.02px;
+    }
+    .fa-instagram{
+        position: absolute;
+        left: 1125.14px;
+        top: 670.02px;
+    }
+    .error1 {
+        color: red;
+        position: absolute;
+        left: 1270px;
+        top: 125px;
+      }
+      .error2 {
+        color: red;
+        position: absolute;
+        left: 1270px;
+        top: 210px;
+      }
+      .error3 {
+        color: red;
+        position: absolute;
+        left: 1270px;
+        top: 292px;
+      }
+      .error4{
+        color: red;
+        position: absolute;
+        left: 1270px;
+        top: 125px;
+      }
+      .error5 {
+        color: red;
+        position: absolute;
+        left: 1270px;
+        top: 362px;
+      } 
+      .error6 {
+        color: red;
+        position: absolute;
+        left: 1270px;
+        top: 450px;
+      }
+      .back{
+        position: absolute;
+        top: 33px;
+        right: 42px;
+        font-family: sans-serif;
+    }     
+      
+   
